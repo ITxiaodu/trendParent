@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="index-codes-service" />
+        <module name="index-data-service" />
         <module name="index-gether-store-service" />
+        <module name="index-zuul-service" />
         <module name="third-part-index-data-project" />
       </profile>
     </annotationProcessing>
@@ -18,7 +21,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="index-codes-service" options="-parameters" />
+      <module name="index-data-service" options="-parameters" />
       <module name="index-gether-store-service" options="-parameters" />
+      <module name="index-zuul-service" options="-parameters" />
       <module name="third-part-index-data-project" options="-parameters" />
     </option>
   </component>
